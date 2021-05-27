@@ -1,0 +1,33 @@
+body {
+ background-image: url("Backgrounds/bodybg3.jpg");
+ background-size: contain;
+ background-color:#595959;
+ color:white;
+}
+#header{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#main{
+  border-style: solid; border-radius:50px;border-color: #000000;background-color:#666666;margin:30px;
+  position:relative;
+  align-content: center;
+  position: inherit;
+  text-align: center;
+}
+
+#footer{
+  color: white;
+  position: inherit;
+}
+.sidebar {
+  margin: 0;padding: 0;width: 200px;background-color: #f1f1f1;position: absolute;height: 100%;overflow:auto; height: 700px;}
+.sidebar a {display: block;color: black;padding: 16px;text-decoration: none;}
+.sidebar a.active {background-color: #04AA6D;color: white;}
+.sidebar a:hover:not(.active) {background-color: #555;color: white;}
+#main{margin-left: 200px;padding: 1px 16px;height: 700px;}
+@media screen and (max-width: 700px) {.sidebar {width: 100%;height: auto;position: relative;}
+  .sidebar a {float: left;}
+@media screen and (max-width: 400px) {.sidebar a {text-align: center;float: none;}
