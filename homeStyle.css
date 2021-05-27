@@ -16,7 +16,7 @@ body {
   align-content: center;
   position: inherit;
   text-align: center;
-  background-image: url(Backgrounds/mainBG.jpg);
+  background-image: url("Backgrounds/mainBG.jpg");
 }
 
 #footer{
